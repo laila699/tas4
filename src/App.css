@@ -1,0 +1,145 @@
+
+.light {
+  background-color: white;
+  color: black;
+}
+
+.dark {
+  background-color: black;
+  color: white;
+}
+
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+
+.light .card {
+  background-color: rgb(243, 223, 223);
+  color: #484432;
+}
+
+.dark .card {
+  background-color: #222;
+  color: white;
+}
+
+
+.title {
+  margin-bottom: 20px;
+}
+
+
+input[type="text"] {
+  padding: 10px;
+  margin: 10px 0;
+  width: 70%;
+  border-radius: 5px;
+  border: 1px solid #484432;
+  outline: none;
+  font-size: 16px;
+}
+
+
+button {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.light button {
+  background-color: #484432;
+  color: rgb(214, 183, 183);
+}
+
+.dark button {
+  background-color: white;
+  color: black;
+}
+
+.dark button:hover {
+  background-color: #bbb;
+}
+
+.light button:hover {
+  background-color: #787772;
+}
+
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  padding: 10px;
+  margin: 10px 0;
+  border-bottom: 1px solid #ddd;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+li.completed {
+  text-decoration: line-through;
+  color: gray;
+}
+
+
+.complete-button {
+  padding: 5px 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: bold;
+  margin-right: 30px;
+}
+
+.light .complete-button {
+  background-color: #484432;
+  color: rgb(214, 183, 183);
+}
+
+.dark .complete-button {
+  background-color: white;
+  color: black;
+}
+
+.dark .complete-button:hover {
+  background-color: #bbb;
+}
+
+.light .complete-button:hover {
+  background-color: #787772;
+}
+
+
+.card {
+  background-color: rgb(243, 223, 223);
+  padding: 20px;
+  border-radius: 10px;
+  width: 600px; 
+  max-height: 80vh;
+  height: auto; 
+  overflow-y: auto; 
+  text-align: center;
+  color: #484432;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start; 
+}
+
+
+.error {
+  color: red;
+  font-size: 14px;
+  margin-top: 10px;
+}
